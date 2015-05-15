@@ -1,0 +1,764 @@
+{
+    "domains": {
+        "domain1": {
+            "domName": "Preparation",
+            "topics": {
+                "topic1": {
+                    "topicName": "Training",
+                    "subtopics": {
+                        "subtopic1": {
+                            "subtopicName": "CSIRT Training",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Is there a professional development program for incident management personnel?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question2": {
+                                    "questionValue": "Is training is conducted annually with attendance logged to ensure comprehensive training?",
+                                    "value": "yes",
+                                    "weight": "LOW"
+                                },
+                                "question3": {
+                                    "questionValue": "Are there established ETA requirements and minimum competency levels incorporated into the training program for all personnel performing incident management activities?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question4": {
+                                    "questionValue": "Is there an operations security (OPSEC) training program?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                }
+                            }
+                        },
+                        "subtopic2": {
+                            "subtopicName": "Security education, training, and awareness (ETA)",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Security education, training, and awareness assistance is provided?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "Training requirements are documented?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question3": {
+                                    "questionValue": "Covers security guidelines (such as creating good passwords, handling secure data, or avoiding identify theft) ?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question4": {
+                                    "questionValue": "Covers malicious code types, propagation, and remediation techniques (for appropriate audience)?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question5": {
+                                    "questionValue": "Covers incident reporting guidelines detailing what, how, and to whom to report suspicious or malicious behavior ?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                }
+                            }
+                        }
+                    }
+                },
+                "topic2": {
+                    "topicName": "Plan and Procedures",
+                    "subtopics": {
+                        "subtopic1": {
+                            "subtopicName": "Incident Response Plan",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "The plan establishes the goals of incident response program?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "The plan is updated annually or when major updates to infrastructure are implemented?",
+                                    "value": "yes",
+                                    "weight": "MEDIUM"
+                                },
+                                "question3": {
+                                    "questionValue": "The plan identifies ownership and responsibilities related to its implementation?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question4": {
+                                    "questionValue": "The plan references external procedures, policies, and documentation as appropriate?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        },
+                        "subtopic2": {
+                            "subtopicName": "Incident Response Procedures/Playbooks",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Playbooks exists for incidents deemed high risk to the organization?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question2": {
+                                    "questionValue": "Procedures for common tasks are documented and maintained(acquisition, evidence handling, handling malicious software etc.)?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        }
+                    }
+                },
+                "topic3": {
+                    "topicName": "Communication/Notification",
+                    "subtopics": {
+                        "subtopic1": {
+                            "subtopicName": "Reporting",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "There are defined channels by which security events and weaknesses can be reported.",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "All employees, contractors, and third party entities are responsible for reporting security weaknesses and events.",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question3": {
+                                    "questionValue": "There is a medium for both anonymous and public reporting of security weaknesses and events",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question4": {
+                                    "questionValue": "There is a policy that individuals reporting security events and weaknesses cannot be penalized for reporting the weakness or event.",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question5": {
+                                    "questionValue": "Management promotes, supports, and encourages reporting security events and weaknesses.",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question6": {
+                                    "questionValue": "Are incidents reported to appropriate organization management in accordance with organizational guidelines?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question7": {
+                                    "questionValue": "Are incidents reported to and coordinated with appropriate external organizations or groups in accordance with organizational guidelines?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question8": {
+                                    "questionValue": "Is there a central repository for constituent security event/incident reporting?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                }
+                            }
+                        },
+                        "subtopic2": {
+                            "subtopicName": "Notification",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Is a notification service provided to constituents(Security Advisories)?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "Are incidents reported to law enforcement as required and/or the intelligence community as appropriate?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                }
+                            }
+                        },
+                        "subtopic3": {
+                            "subtopicName": "Organizational Interfaces",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Is there an alternate communications system (other than email) for receiving and distributing notifications, information about incidents, and other kinds of warnings?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "There is a defined hierarchal escalation path that identifies each key stakeholder.",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question3": {
+                                    "questionValue": "There are defined decision makers and action takers.",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question4": {
+                                    "questionValue": "Are trusted relationships maintained with internal organizational experts who can give technical and non-technical advice and information?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        },
+                        "subtopic4": {
+                            "subtopicName": "Law-Enforcement",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Communication with local law enforcement is defined and contact information for relevant individuals is formally documented.",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question2": {
+                                    "questionValue": "Inclusion of law enforcement is not limited to local Police Departments, rather the structure also includes USSS, FBI, and law enforcement entities relevant to identified potential incidents.",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        },
+                        "subtopic5": {
+                            "subtopicName": "Third Party",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Have trusted relationships been developed with other external experts (CERT/CC, FIRST, vendors, other entities, etc.)?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question2": {
+                                    "questionValue": "Are SLA's and contracts in place with any third parties to support Incident Management (Requesting data from cloud vendors, isp support, MSS , forensics firms etc.) ",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        }
+                    }
+                },
+                "topic4": {
+                    "topicName": "Resources/Documentation",
+                    "subtopics": {
+                        "subtopic1": {
+                            "subtopicName": "Network Documentation",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Network Diagrams are readily available and up to date?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "Network device Configurations are readily available  and up to date?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question3": {
+                                    "questionValue": "A list of network access points and their operational importance.",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                }
+                            }
+                        },
+                        "subtopic2": {
+                            "subtopicName": "Endpoint Resources",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "A Gold Image up to date and available for workstations?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "A GoldImage up to date and available for servers?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                }
+                            }
+                        },
+                        "subtopic3": {
+                            "subtopicName": "Asset Inventory",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "User",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question2": {
+                                    "questionValue": "IP",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question3": {
+                                    "questionValue": "Hostname",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question4": {
+                                    "questionValue": "Make, Model and Serial",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question5": {
+                                    "questionValue": "Location",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question6": {
+                                    "questionValue": "Privileged AccountList",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                }
+                            }
+                        },
+                        "subtopic4": {
+                            "subtopicName": "Software Inventory/Resources",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Updated list of approved software(versions)",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question2": {
+                                    "questionValue": "Updated list of unauthorized software",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question3": {
+                                    "questionValue": "Application whitelisting technology?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question4": {
+                                    "questionValue": "Regular scanning for unauthorized software?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        },
+                        "subtopic5": {
+                            "subtopicName": "Critical Information Assets",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Locations of critical information assets is documented and available? ",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question2": {
+                                    "questionValue": "Knowledge o fwhat organizations critical data assets are?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question3": {
+                                    "questionValue": "Documentation of access to critical data assets?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question4": {
+                                    "questionValue": "Technology to enforce access and movement of critical assets?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        }
+                    }
+                },
+                "topic5": {
+                    "topicName": "CSIRT",
+                    "subtopics": {
+                        "subtopic1": {
+                            "subtopicName": "CSIRT Program",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Is there a financial plan for incident management functions?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question2": {
+                                    "questionValue": "Is there an incident management function or CSIRT designated by the organization head or CIO through an official appointment order?(Executive Buy In)",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question3": {
+                                    "questionValue": "Is there a documented agreement(s) that identifies the incident management services provided to the constituency?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question4": {
+                                    "questionValue": "Does the agreement with the constituent specify that the constituency will provide notification in advance of changes or planned outages to its network?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question5": {
+                                    "questionValue": "Are there documented roles and responsibilities for key incident management activities throughout the organization?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question6": {
+                                    "questionValue": "Is there a program management plan(workforceplan) for incident management personnel?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question7": {
+                                    "questionValue": "Is there a personnel security plan for incident management personnel?(backgroundchecks ,qualifications,clearances etc.)",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                }
+                            }
+                        },
+                        "subtopic2": {
+                            "subtopicName": "CSIRT Infrastructure",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Is the incident management IT infrastructure adequate to support incident management functions?",
+                                    "value": "no",
+                                    "weight": "MEDIUM"
+                                },
+                                "question2": {
+                                    "questionValue": "Is there a capability to safely test software tools for use within the incident management environment?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question3": {
+                                    "questionValue": "Is there a process to monitor and review various forms of media to ensure that incident management personnel stay abreast of emerging technologies?",
+                                    "value": "no",
+                                    "weight": "LOW"
+                                },
+                                "question4": {
+                                    "questionValue": "Are there physical protective measures in place to protect incident management IT systems, facilities, and personnel?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                }
+                            }
+                        },
+                        "subtopic3": {
+                            "subtopicName": "Incident Classification and Severity Levels",
+                            "questions": {
+                                "question1": {
+                                    "questionValue": "Are incidents assigned a severity level based on risk to the organization?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question4": {
+                                    "questionValue": "Are CSIRT staff and first-responders aware of classification definitions and severity levels for the organization?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                },
+                                "question5": {
+                                    "questionValue": "The organization has a definition of security incident documented?",
+                                    "value": "no",
+                                    "weight": "HIGH"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    },
+    "domain2": {
+        "domName": "Detection and Analysis",
+        "topics": {
+            "topic1": {
+                "topicName": "Endpoint",
+                "subtopics": {
+                    "subtopic1": {
+                        "subtopicName": "Anti-Virus / Anti-Malware",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "Blah?",
+                                "value": "no",
+                                "weight": "HIGH"
+                            },
+                            "question2": {
+                                "quesitonValue": "Blah2?",
+                                "value": "yes",
+                                "weight": "MEDIUM"
+                            }
+                        }
+                    },
+                    "subtopic2": {
+                        "subtopicName": "Account Monitoring",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic3":{
+                        "subtopicName":"Disk  and Memory Forensics",
+                        "questions":{
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic4":{
+                        "subtopicName":"Acquisition and Evidence Handling",
+                        "questions":{
+                            "question1":{
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    }
+                }
+             },
+             "topic2":{
+                "topicName":"Network",
+                "subtopics": {
+                    "subtopic1": {
+                        "subtopicName": "Anti-Virus / Anti-Malware",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "Blah?",
+                                "value": "no",
+                                "weight": "HIGH"
+                            },
+                            "question2": {
+                                "quesitonValue": "Blah2?",
+                                "value": "yes",
+                                "weight": "MEDIUM"
+                            }
+                        }
+                    },
+                    "subtopic2": {
+                        "subtopicName": "Account Monitoring",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic3":{
+                        "subtopicName":"Disk  and Memory Forensics",
+                        "questions":{
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic4":{
+                        "subtopicName":"Acquisition and Evidence Handling",
+                        "questions":{
+                            "question1":{
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    }
+                }
+             }
+         }
+      },
+      "domain3": {
+        "domName": "Containment, Eradication and Recovery",
+        "topics": {
+            "topic1": {
+                "topicName": "Endpoint",
+                "subtopics": {
+                    "subtopic1": {
+                        "subtopicName": "Anti-Virus / Anti-Malware",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "Blah?",
+                                "value": "no",
+                                "weight": "HIGH"
+                            },
+                            "question2": {
+                                "quesitonValue": "Blah2?",
+                                "value": "yes",
+                                "weight": "MEDIUM"
+                            }
+                        }
+                    },
+                    "subtopic2": {
+                        "subtopicName": "Account Monitoring",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic3":{
+                        "subtopicName":"Disk  and Memory Forensics",
+                        "questions":{
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic4":{
+                        "subtopicName":"Acquisition and Evidence Handling",
+                        "questions":{
+                            "question1":{
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    }
+                }
+             },
+             "topic2":{
+                "topicName":"Network",
+                "subtopics": {
+                    "subtopic1": {
+                        "subtopicName": "Anti-Virus / Anti-Malware",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "Blah?",
+                                "value": "no",
+                                "weight": "HIGH"
+                            },
+                            "question2": {
+                                "quesitonValue": "Blah2?",
+                                "value": "yes",
+                                "weight": "MEDIUM"
+                            }
+                        }
+                    },
+                    "subtopic2": {
+                        "subtopicName": "Account Monitoring",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic3":{
+                        "subtopicName":"Disk  and Memory Forensics",
+                        "questions":{
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic4":{
+                        "subtopicName":"Acquisition and Evidence Handling",
+                        "questions":{
+                            "question1":{
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    }
+                }
+             }
+         }
+         },
+         "domain4": {
+        "domName": "Post-Incident Activity",
+        "topics": {
+            "topic1": {
+                "topicName": "Endpoint",
+                "subtopics": {
+                    "subtopic1": {
+                        "subtopicName": "Anti-Virus / Anti-Malware",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "Blah?",
+                                "value": "no",
+                                "weight": "HIGH"
+                            },
+                            "question2": {
+                                "quesitonValue": "Blah2?",
+                                "value": "yes",
+                                "weight": "MEDIUM"
+                            }
+                        }
+                    },
+                    "subtopic2": {
+                        "subtopicName": "Account Monitoring",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic3":{
+                        "subtopicName":"Disk  and Memory Forensics",
+                        "questions":{
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic4":{
+                        "subtopicName":"Acquisition and Evidence Handling",
+                        "questions":{
+                            "question1":{
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    }
+                }
+             },
+             "topic2":{
+                "topicName":"Network",
+                "subtopics": {
+                    "subtopic1": {
+                        "subtopicName": "Anti-Virus / Anti-Malware",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "Blah?",
+                                "value": "no",
+                                "weight": "HIGH"
+                            },
+                            "question2": {
+                                "quesitonValue": "Blah2?",
+                                "value": "yes",
+                                "weight": "MEDIUM"
+                            }
+                        }
+                    },
+                    "subtopic2": {
+                        "subtopicName": "Account Monitoring",
+                        "questions": {
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic3":{
+                        "subtopicName":"Disk  and Memory Forensics",
+                        "questions":{
+                            "question1": {
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    },
+                    "subtopic4":{
+                        "subtopicName":"Acquisition and Evidence Handling",
+                        "questions":{
+                            "question1":{
+                                "questionValue": "BlahBlah?",
+                                "value": "no",
+                                "weight": "LOW"
+                            }
+                        }
+                    }
+                }
+             }
+         }
+     }
+   }
+}
