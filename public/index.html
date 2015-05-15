@@ -51,7 +51,7 @@
                         <td width="25%" align="right">
                             <select
                                 ng-model="question.valueResponse"
-                                ng-change="subtopicScoreUpdate(question, question.valueResponse,question.weight)"
+                                ng-change="subtopicScoreUpdate(question, question.valueResponse, question.weight)"
                                 ng-options="s.score as s.value for s in responses">
                             </select>
                         </td>
