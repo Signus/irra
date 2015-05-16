@@ -1,5 +1,5 @@
 # IRRA
-IRRA Stands for Incident Response Readiness Assessment, and is built as a questionnaire system to quantitatively determine whether organizations are prepared for incidents.
+IRRA stands for Incident Response Readiness Assessment, and is built as a questionnaire system to quantitatively determine whether organizations are prepared for incidents.
 
 ### Organization
 IRRA is built with a structure in mind to assess "areas" in which organizations are prepared. The core components of IRRA are:
@@ -41,5 +41,5 @@ nodemon server.js
    * Graphical view of strong/weak areas
  - Create "suggestions" for failing modules
 
-### Contributions
+### Contributing
 Contributions to the project are incredibly welcome, and all feedback given is greatly appreciated! If you're an Incident Responder/Handler and you have suggestions to allow this to fit your environment, workflow, or organization - let us know!
