@@ -1,4 +1,6 @@
 # IRRA
+[![Build Status](https://travis-ci.org/Signus/irra.svg?branch=nested)](https://travis-ci.org/Signus/irra)
+
 IRRA stands for Incident Response Readiness Assessment, and is built as a questionnaire system to quantitatively determine whether organizations are prepared for incidents.
 
 ### Organization
