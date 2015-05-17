@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="irraDomain">
+<html ng-app="irraApp">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,18 +35,18 @@
             </center>
         </div>
 
-        <div ng-repeat="domain in domains" align="left"><h1> {{ domain.domName }} </h1>
+        <div ng-controller="domainsController" ng-repeat="domain in domains" align="left"><h1> {{ domain.domName }} </h1>
         <br>
-            <div ng-repeat-end ng-repeat="topic in domain.topics" align="left"><h4> Topic: {{ topic.topicName }} </h4>
+            <div ng-controller="topicsController" ng-repeat-end ng-repeat="topic in domain.topics" align="left"><h4> Topic: {{ topic.topicName }} </h4>
 
-                <table class="table table-striped table-hover" ng-repeat-end ng-repeat="subtopic in topic.subtopics" width="100%">
+                <table class="table table-striped table-hover" ng-controller="subtopicsController" ng-repeat-end ng-repeat="subtopic in topic.subtopics" width="100%">
                     <caption><b> {{ subtopic.subtopicName }} Score: <span class="label label-info"> {{ estimated_score }} </span> </b></caption>
 
                     <tr>
                         <th>Question</th>
                         <th>Value</th>
                     </tr>
-                    <tr ng-repeat-end ng-repeat="question in subtopic.questions">
+                    <tr ng-controller="questionsController" ng-repeat-end ng-repeat="question in subtopic.questions">
                         <td width="75%"> {{ question.questionValue }} </td>
                         <td width="25%" align="right">
                             <select

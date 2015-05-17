@@ -16,7 +16,7 @@ The structure is organized as follows (currently JSON):
         - Questions
 
 ### Installation
-IRRA is currently a single page application utilizing AngularJS, Node.js, and Express.js. All packages are specified in the `packages.json` file and all that is required to install is `npm install`.
+IRRA is currently a single page application utilizing AngularJS, Node.js, and Express.js. All packages are specified in the `package.json` file and all that is required to install is `npm install`.
 
 It is highly suggested to use the `nodemon` package if you intend to modify the application, otherwise you may simply run `node server.js`
 
